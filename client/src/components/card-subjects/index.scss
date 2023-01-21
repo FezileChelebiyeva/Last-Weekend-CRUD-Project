@@ -1,0 +1,263 @@
+#subjects {
+    padding: 70px 0;
+  .subjects {
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #4255a4;
+    }
+    .top {
+      .img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .img1 {
+          background-image: url("../../assets/images/topic1.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic1.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img2 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic2.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic2.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img3 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic3.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic3.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img4 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic4.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic4.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+      }
+    }
+    .bottom {
+      margin-top: 20px;
+      .img {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .img1 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic5.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic5.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img2 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic6.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic6.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img3 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic7.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic7.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+        .img4 {
+          width: 300px;
+          height: 200px;
+          background-image: url("../../assets/images/topic8.png.webp");
+          background-repeat: no-repeat;
+          width: 270px;
+          height: 160px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #fff;
+          font-weight: 700;
+          font-size: 18px;
+          transition: all 0.4s;
+          background-size: cover;
+          border-radius: 10px;
+          &:hover {
+            background-image: linear-gradient(
+                rgba(128, 143, 228, 0.52),
+                rgba(67, 93, 243, 0.73)
+              ),
+              url("../../assets/images/topic8.png.webp");
+            width: 270px;
+            height: 160px;
+            border-radius: 10px;
+            text-decoration: underline;
+            cursor: pointer;
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+}

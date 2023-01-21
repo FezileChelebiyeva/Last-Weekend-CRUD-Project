@@ -1,0 +1,61 @@
+#home-page {
+  width: 100%;
+  height: 108vh;
+  background-image: url("../../assets/images/h1_hero.png.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  .home-page {
+    .about {
+      margin-top: 120px;
+      color: #fff;
+      h1 {
+        font-size: 50px;
+      }
+      p {
+        width: 50%;
+        color: #fff;
+        font-size: 18px;
+        margin: 34px 0;
+        line-height: 30px;
+      }
+      button {
+        border: 0;
+        outline: 0;
+        cursor: pointer;
+        background: #ff9f67;
+        padding: 15px 38px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+        border-radius: 5px;
+        transition: 0.3s linear;
+        &:hover {
+          background-color: #ae59ff;
+        }
+      }
+    }
+    .boxes {
+        margin-top: 150px;
+      display: flex;
+      justify-content: space-between;
+      .card {
+        display: flex;
+        column-gap: 20px;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 20px;
+        width: 350px;
+        padding: 20px 40px;
+        h3{
+            color: #4255A4;
+        }
+        p{
+            margin-top: 10px;
+            color: #657ad8;
+            line-height: 26px;
+            font-size: 18px;
+        }
+      }
+    }
+  }
+}
