@@ -52,6 +52,19 @@ app.get("/courses/:id", (req, res) => {
   });
 });
 
+app.post("/courses", (req, res) => {
+  let course = new Courses({
+    image: req.body.image,
+    name: req.body.name,
+    title: req.body.title,
+    description: req.body.description,
+    count: req.body.count,
+    price: req.body.price,
+  });
+  course.save();
+  res.send({ message: "Course Added" });
+});
+
 const PORT = process.env.PORT;
 const DB = process.env.DB_URL.replace("<password>", process.env.PASSWORD);
 

@@ -11,6 +11,10 @@ export const fetchData = createAsyncThunk("fetchData", async () => {
   return response.data;
 });
 
+export const postData = createAsyncThunk("postData", async (values) => {
+  await axios.post("http://localhost:8080/courses", values);
+});
+
 export const getdataSlice = createSlice({
   name: "courses",
   initialState,
