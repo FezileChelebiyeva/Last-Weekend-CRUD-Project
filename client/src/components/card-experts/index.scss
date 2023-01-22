@@ -1,0 +1,44 @@
+#card-experts {
+  padding: 60px 0;
+  .swiper-button-prev {
+    --swiper-navigation-size: 22px;
+    --swiper-navigation-color: black;
+    height: 20px;
+    cursor: pointer;
+  }
+  .swiper-button-next {
+    --swiper-navigation-color: black;
+    --swiper-navigation-size: 22px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .experts {
+    h1 {
+      text-align: center;
+      margin: 40px 0;
+      color: #4255a4;
+    }
+    .card {
+      .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .info {
+        padding: 0 40px;
+        h4 {
+          text-align: center;
+          color: #4255a4;
+          padding: 15px 0;
+          font-size: 20px;
+        }
+        p {
+          text-align: center;
+          color: #6e7697;
+          line-height: 30px;
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

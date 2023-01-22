@@ -8,6 +8,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import { Link } from "react-router-dom";
 
 const CoursesCard = () => {
   const dispatch = useDispatch();
@@ -29,11 +30,13 @@ const CoursesCard = () => {
           >
             {dataCourses?.data?.map((element) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={element._id}>
                   <div className="card">
-                    <div className="img">
-                      <img src={element.image} alt="" />
-                    </div>
+                    <Link to={`/${element._id}`}>
+                      <div className="img">
+                        <img src={element.image} alt="" />
+                      </div>
+                    </Link>
                     <div className="about-card">
                       <p className="name">{element.name}</p>
                       <p className="title">{element.title}</p>
@@ -47,12 +50,9 @@ const CoursesCard = () => {
                       </div>
                       <div className="price-count">
                         <div className="count">
-                          <span >(4.5) </span> based on{" "}
-                          {element.count}
+                          <span>(4.5) </span> based on {element.count}
                         </div>
-                        <div className="price">
-                          ${element.price}
-                        </div>
+                        <div className="price">${element.price}</div>
                       </div>
                       <div className="btn">
                         <button>Find Out More</button>

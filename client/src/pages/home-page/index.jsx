@@ -7,9 +7,17 @@ import icon3 from "../../assets/images/icon3.svg";
 import "./index.scss";
 import CoursesCard from "../../components/card-couerse";
 import SubjectsCard from "../../components/card-subjects";
+import ExpertsCard from "../../components/card-experts";
+import { Helmet } from "react-helmet";
+
 const HomePage = () => {
   return (
     <div id="home-page">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Colorlib | Free React Website</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       <Header />
       <div className="container">
         <div className="home-page">
@@ -56,6 +64,7 @@ const HomePage = () => {
       </div>
       <CoursesCard />
       <SubjectsCard />
+      <ExpertsCard />
       <Footer />
     </div>
   );
