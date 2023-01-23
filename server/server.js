@@ -65,6 +65,17 @@ app.post("/courses", (req, res) => {
   res.send({ message: "Course Added" });
 });
 
+app.delete("/courses/:id", (req, res) => {
+  const { id } = req.params;
+  Courses.findByIdAndDelete(id, (err, doc) => {
+    if (!err) {
+      res.status(200).json({ message: "Course Deleted" });
+    } else {
+      res.status(404).json({ message: err });
+    }
+  });
+});
+
 const PORT = process.env.PORT;
 const DB = process.env.DB_URL.replace("<password>", process.env.PASSWORD);
 

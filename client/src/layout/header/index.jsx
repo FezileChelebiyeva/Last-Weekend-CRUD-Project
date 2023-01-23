@@ -19,10 +19,10 @@ const Header = () => {
                 <NavLink to={"/"}>Home</NavLink>
               </li>
               <li>
-                <NavLink>Courses</NavLink>
+                <NavLink to={"/courses"}>Courses</NavLink>
               </li>
               <li>
-                <NavLink>About</NavLink>
+                <NavLink to={"/about"}>About</NavLink>
               </li>
               <li>
                 <Dropdown
@@ -50,7 +50,7 @@ const Header = () => {
                 </Dropdown>
               </li>
               <li>
-                <NavLink>Contact</NavLink>
+                <NavLink to={"/contact"}>Contact</NavLink>
               </li>
               <li>
                 <NavLink to={"/add-course"}>Add Couerse</NavLink>
